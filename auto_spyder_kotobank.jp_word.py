@@ -395,7 +395,7 @@ and eliminating jumpers which do not exist in this dictionary. \
                         view_bar(count,total)
 
 def del_useless_files():
-    print('Deleting useless files.')
+    print('\nDeleting useless files.')
     os.remove('conbination_of_data.txt')
     os.remove('exist_entry.txt')
     os.remove('img_url.txt')
