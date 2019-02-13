@@ -3,6 +3,8 @@
 ## English Documentation
 This proramme intends to collect dictionary data from [https://kotobank.jp/dictionary/](https://kotobank.jp/dictionary/), this website contains about 120 dictionaries and this programme can help you automatically collect any dictionary data from this site.
 
+![image](https://github.com/freemdict/kotobak.jp_dictionary_auto_spider/blob/master/raw/Snipaste_2019-02-13_10-20-44.png)
+
 ## Installation
 - Python3.x is required ( Recommendation: [Visual Studio Code](https://code.visualstudio.com/))
 - The modules below are needed
