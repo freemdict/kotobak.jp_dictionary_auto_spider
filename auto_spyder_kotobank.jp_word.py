@@ -394,7 +394,7 @@ and eliminating jumpers which do not exist in this dictionary. \
                         count += 1
                         view_bar(count,total)
     with open(entry_id_1_global+'.css','w+',encoding="utf8") as csss:
-    print('')
+        print('')
 def del_useless_files():
     print('\nDeleting useless files.')
     os.remove('conbination_of_data.txt')
