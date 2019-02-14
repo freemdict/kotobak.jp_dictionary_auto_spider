@@ -393,7 +393,8 @@ and eliminating jumpers which do not exist in this dictionary. \
                         write.writelines(line)
                         count += 1
                         view_bar(count,total)
-
+    with open(entry_id_1_global+'.css','w+',encoding="utf8") as csss:
+    print('')
 def del_useless_files():
     print('\nDeleting useless files.')
     os.remove('conbination_of_data.txt')
@@ -461,7 +462,7 @@ Example: 16 Your choice is: ')
     print('\n' + color.yellow_('[7/7] Nearly finish, doing last modifying on the data'))
     last_modify_data()
 
-    print('Do you want to delete useless files?\n \
+    print('\nDo you want to delete useless files?\n \
     1) Yes\n \
     2) No')
     del_or_not = input('(Input 1 or 2) Your choice is: ')
