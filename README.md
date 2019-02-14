@@ -13,7 +13,7 @@ This proramme intends to collect dictionary data from [https://kotobank.jp/dicti
 - Python3.x is required ( Recommendation: [Visual Studio Code](https://code.visualstudio.com/))
 - The modules below are needed
 ```python
-pip3 install request bs4 psutil colorama
+pip3 install request bs4 psutil colorama requests
 ```
 - After settle environment, open file and run.
 
@@ -24,6 +24,6 @@ pip3 install request bs4 psutil colorama
 - Python3.x 环境 (推荐：[Visual Studio Code](https://code.visualstudio.com/))
 - 下列模块需要提前安装
 ```python
-pip3 install request bs4 psutil colorama
+pip3 install request bs4 psutil colorama requests
 ```
 - 完成运行环境的设置后，打开.py文件，就可以开心地开始爬取词典了。
